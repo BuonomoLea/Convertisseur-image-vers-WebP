@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Convertissez vos images JPG, JPEG, PNG ou SVG en WebP en ligne. Outil simple, rapide et gratuit pour générer un fichier WebP prêt à télécharger.">
+    <meta name="robots" content="index">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+    <title>Convertisseur image vers WebP en ligne, JPG, PNG, SVG</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container-title">
+            <h1>Convertisseur d'image vers Webp</h1>
+            <p>Fichiers accepté: JPG, JPEG, PNG, SVG</p>
+        </div>
+        <div class="container-control">
+            <!-- Input file -->
+            <div class="input-container container-flex">
+                <div id="baseSize" class="base-size hidden"></div>
+                <div id="customInput" class="custom-input">
+                    choisir un fichier
+                </div>
+
+                <input id="inputFile" class="input-file" type="file" aria-label="importer le fichier image" accept=".jpg,.jpeg,.png,.svg,image/jpeg,image/png,image/svg+xml">
+            </div>
+            <!-- Button convert -->
+            <div class="button-container container-flex">
+                <div id="finalSize" class="final-size hidden"></div>
+                <button class="button-convert close" id="buttonConvert" type="button">Convertir en WEBP</button>
+            </div>
+            <!-- Download link -->
+            <div class="link-container container-flex">
+                <a class="a-download close" id="linkDownload" href="#" download="image.webp">Télécharger</a>              
+            </div>            
+        </div>
+    </main>
+</body>
+</html>
