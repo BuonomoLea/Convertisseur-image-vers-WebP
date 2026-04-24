@@ -4,4 +4,6 @@
 - Convertir en Webp
 - Télécharger
 
-  Aucune dépendances.
+Aucune dépendances.
+
+Fichiers accepté: JPG, JPEG, PNG, SVG
