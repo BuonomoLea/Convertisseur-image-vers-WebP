@@ -120,3 +120,6 @@ buttonConvert.addEventListener('click', async function () {
     prepareDownloadLink(webpFile);
 });
 
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+}
