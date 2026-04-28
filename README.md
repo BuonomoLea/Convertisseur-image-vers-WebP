@@ -7,3 +7,4 @@
 Aucune dépendances.
 
 Fichiers accepté: JPG, JPEG, PNG, SVG
+Disponible également en application installable (PWA).
