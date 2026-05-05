@@ -8,3 +8,13 @@ Aucune dépendances.
 
 Fichiers accepté: JPG, JPEG, PNG, SVG
 Disponible également en application installable (PWA).
+
+## Contribution
+
+Des contributions via pull request sont les bienvenues.
+
+---
+
+## Auteur
+
+Créé par Léa Buonomo
